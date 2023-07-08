@@ -1,0 +1,47 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "lilypond-book build",
+            "type": "shell",
+            "command": "lilypond-book",
+            "args": [
+                "-o",
+                "${relativeFileDirname}/${fileBasenameNoExtension}",
+                "--pdf",
+                "${relativeFile}"
+            ]
+        },
+        {
+            "label": "xelatex build",
+            "type": "shell",
+            "command": "xelatex",
+            "args": [
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "${fileBasenameNoExtension}.tex",
+            ],
+            "options": {
+                "cwd": "${fileDirname}/${fileBasenameNoExtension}"
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "dependsOrder": "sequence",
+            "dependsOn": ["lilypond-book build", "xelatex build"], 
+            "command": "mv",
+            "args": [
+                "${fileDirname}/${fileBasenameNoExtension}/${fileBasenameNoExtension}.pdf",
+                "./output/"
+            ]
+        },
+        {
+            "label": "clear",
+            "type": "shell",
+            "command": "rm -r ${fileDirname}/${fileBasenameNoExtension}"
+        }
+    ]
+}
