@@ -47,6 +47,7 @@ melody = \fixed c' {
 \score {
   \new Staff \with {
     instrumentName = "Bamboo Flute"
+    % midiInstrument = "shakuhachi"
   } \melody
   \layout { \context {
     \Voice
