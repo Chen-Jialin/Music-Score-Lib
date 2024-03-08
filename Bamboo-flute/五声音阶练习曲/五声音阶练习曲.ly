@@ -31,6 +31,8 @@
         (make-vector 7 (number->string (1+ delta)))))
   (ly:grob-set-property! grob 'note-names note-names))))))
 
+#(set-global-staff-size 24)
+
 melody = \fixed c' {
   \clef treble
   \key c \major
@@ -46,7 +48,7 @@ melody = \fixed c' {
 
 \score {
   \new Staff \with {
-    instrumentName = "Bamboo Flute"
+    instrumentName = "竹笛"
     % midiInstrument = "shakuhachi"
   } \melody
   \layout { \context {
