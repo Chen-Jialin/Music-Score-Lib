@@ -16,28 +16,12 @@
   tagline = ##f
 }
 
-#(define Ez_numbers_engraver
-   (make-engraver
-    (acknowledgers
-     ((note-head-interface engraver grob source-engraver)
-      (let* ((context (ly:translator-context engraver))
-       (tonic-pitch (ly:context-property context 'tonic))
-       (tonic-name (ly:pitch-notename tonic-pitch))
-       (grob-pitch
-        (ly:event-property (event-cause grob) 'pitch))
-       (grob-name (ly:pitch-notename grob-pitch))
-       (delta (modulo (- grob-name tonic-name) 7))
-       (note-names
-        (make-vector 7 (number->string (1+ delta)))))
-  (ly:grob-set-property! grob 'note-names note-names))))))
-
-#(set-global-staff-size 24)
+#(set-global-staff-size 26)
 
 melody = \fixed c' {
   \clef treble
   \key c \major
   \time 4/8
-  \easyHeadsOn
 
   g,8 a, c d | e2 \breathe | a,8 c d e | g2 \breathe | c8 d e g | a2 \breathe |
   d8 e g a | c'2 \breathe | e8 g a c' | d'2 \breathe | g8 a c' d' | e'2 \breathe |
@@ -48,12 +32,13 @@ melody = \fixed c' {
 
 \score {
   \new Staff \with {
-    instrumentName = "竹笛"
-    % midiInstrument = "shakuhachi"
+    instrumentName = \markup { \right-column {
+        竹笛
+        筒5
+      }
+    }
+    midiInstrument = "shakuhachi"
   } \melody
-  \layout { \context {
-    \Voice
-    \consists \Ez_numbers_engraver
-  } }
+  \layout { }
   \midi { }
 }
