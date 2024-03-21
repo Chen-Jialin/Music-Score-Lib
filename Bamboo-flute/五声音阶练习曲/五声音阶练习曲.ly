@@ -32,8 +32,8 @@ melody = \fixed c' {
 
 \score {
   \new Staff \with {
-    instrumentName = \markup { \right-column {
-        竹笛
+    instrumentName = \markup{\right-column{
+        C调竹笛
         筒5
       }
     }

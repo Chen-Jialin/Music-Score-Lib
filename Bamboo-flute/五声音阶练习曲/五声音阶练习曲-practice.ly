@@ -40,494 +40,174 @@ melody = \fixed c' {
   \easyHeadsOn
   \textLengthOn
 
-  g,8^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  g,8^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } a,^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} a,^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } c^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} c^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } d^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} d^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } | e2^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} | e2^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } \breathe | a,8^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | a,8^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } c^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} c^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } d^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} d^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } e^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} e^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } | g2^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} | g2^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } \breathe | c8^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | c8^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } d^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} d^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } e^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} e^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } g^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } | a2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | a2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } \breathe | d8^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | d8^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } e^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} e^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } g^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } a^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} a^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } | c'2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | c'2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } \breathe | e8^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | e8^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } g^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } a^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} a^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } c'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} c'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } | d'2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | d'2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } \breathe | g8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | g8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } a^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} a^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } c'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} c'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } d'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} d'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } | e'2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | e'2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } \breathe | a8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | a8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } c'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} c'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } d'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} d'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } e'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} e'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } | g'2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | g'2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (two three four five six)) (lh . ()) (rh . ()))
-    }
-  } \breathe | c'8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | c'8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } d'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} d'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } e'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} e'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } g'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (two three four five six)) (lh . ()) (rh . ()))
-    }
-  } | a'2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | a'2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two four five)) (lh . ()) (rh . ()))
-    }
-  } \breathe | a'8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | a'8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two four five)) (lh . ()) (rh . ()))
-    }
-  } g'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (two three four five six)) (lh . ()) (rh . ()))
-    }
-  } e'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} e'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } d'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} d'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } | c'2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | c'2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } \breathe |
-  g'8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe |
+  g'8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (two three four five six)) (lh . ()) (rh . ()))
-    }
-  } e'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} e'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } d'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} d'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } c'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} c'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } | a2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | a2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } \breathe | e'8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | e'8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } d'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} d'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } c'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} c'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } a^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} a^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } | g2^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} | g2^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } \breathe | d'8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | d'8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } c'^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} c'^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } a^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} a^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } g^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } | e2^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} | e2^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } \breathe |
-  c'8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe |
+  c'8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } a^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} a^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } g^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } e^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} e^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } | d2^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} | d2^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } \breathe | a8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | a8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } g^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} g^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } e^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} e^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } d^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} d^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } | c2^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} | c2^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } \breathe | g8^\markup{
-    \center-column {
-      "+"
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | g8^\markup{\center-column{"+" \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } e^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} e^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } d^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} d^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } c^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} c^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } | a,2^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} | a,2^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } \breathe | e8^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} \breathe | e8^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one)) (lh . ()) (rh . ()))
-    }
-  } d^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} d^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two)) (lh . ()) (rh . ()))
-    }
-  } c^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} c^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three)) (lh . ()) (rh . ()))
-    }
-  } a,^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} a,^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five)) (lh . ()) (rh . ()))
-    }
-  } | g,2^\markup{
-    \center-column {
-      " "
-      \woodwind-diagram #'tin-whistle
+  }} | g,2^\markup{\center-column{" " \woodwind-diagram #'tin-whistle
       #'((cc . (one two three four five six)) (lh . ()) (rh . ()))
-    }
-  } \breathe |
+  }} \breathe |
 }
 
 \score {
   \new Staff \with {
-    instrumentName = \markup { \right-column {
+    instrumentName = \markup{\right-column{
         C调竹笛
         筒5
       }
