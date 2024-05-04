@@ -2,8 +2,8 @@
 \language english
 
 \header {
-  title = "斯卡布罗集市"
-  subtitle = "Scarborough Fair"
+  title = "Scarborough Fair"
+  subtitle = "斯卡布罗集市"
   tagline = "github.com/Chen-Jialin"
 }
 
@@ -24,6 +24,7 @@ melody = \fixed c' {
   \time 3/4
   \tempo 4 = 120
 
+  % score begin
   e8 b8 g8 fs8 d4 | e8 b8 g8 fs8 a4 | e8 b8 g8 d8 fs4 | e8 b8 g8 d8 a4 | e8 b8 g8 d8 fs8 e8 | e2. \breathe |
   \repeat volta 4 {
     e2 e4 | b8 b4.~ b8 b8 | fs4. g8 fs4 | e2.~ | e2. \breathe |
@@ -42,11 +43,13 @@ melody = \fixed c' {
       }
     }
   }
+  % score end
 }
 
 \score {
   \new Staff \with {
-    instrumentName = \markup{\right-column{
+    instrumentName = \markup{
+      \right-column{
         G调竹笛
         筒5
       }
@@ -58,7 +61,8 @@ melody = \fixed c' {
 
 \score{
   \new Staff \with {
-    instrumentName = \markup{\right-column{
+    instrumentName = \markup{
+      \right-column{
         G调竹笛
         筒5
       }
