@@ -53,17 +53,5 @@ melody = \fixed c' {
     midiInstrument = "shakuhachi"
   } \melody
   \layout { }
-}
-
-\score{
-  \new Staff \with {
-    instrumentName = \markup{\right-column{
-        G调竹笛
-        筒5
-      }
-    }
-    midiInstrument = "shakuhachi"
-  }
-  \unfoldRepeats { \melody }
   \midi { }
 }
