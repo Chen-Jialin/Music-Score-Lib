@@ -21,3 +21,7 @@ xelatex -interaction=nonstopmode -file-line-error lilypond-book-demo.tex
 ```
 
 若你用 VSCode, 则可借助 `./vscode/tasks.json` 中定义的任务自动完成构建.
+## TODO
+- 把冗余的休止符简化一下
+- 联系版本强制换行
+- 呼吸记号放到休止符前
