@@ -24,6 +24,7 @@ melody = \fixed c' {
   \key g \major
   \time 3/4
   \tempo 4 = 115
+  \easyHeadsOn
 
   \textLengthOn
   e'4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup{+}
