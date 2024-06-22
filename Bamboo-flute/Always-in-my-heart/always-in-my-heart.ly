@@ -3,7 +3,7 @@
 
 \header {
   title = "Always in my heart"
-  subtitle = "終末なにしてますか？忙しいですか？救ってもらっていいですか？ IN"
+  subtitle = "終末なにしてますか？忙しいですか？救ってもらっていいですか？ OST"
   copyright = ""
   tagline = "github.com/Chen-Jialin"
 }
@@ -25,9 +25,8 @@ melody = \fixed c' {
   \time 3/4
   \tempo 4 = 92
 
-  e'2 d'4 | b2 g4 | a2 g4 | e2 d8~ d8 | r2 \breathe r4 |
-  r8 d'2 b8 | a2.~ | a2. | \breathe r2
-  %r8 d'8~ d'4~ d'8 b8 | a2~ a4~ | a2. | r2 \breathe
+  % e'2 d'4 | b2 g4 | a2 g4 | e2 d4 | e2 d4 | b,4 d'4. b8 | a2.~ | a2. | \breathe r2
+  e'2 d'4 | b2 g4 | a2 g4 | e2 d4 | e2 d4~ | d4 d'4. b8 | a2.~ | a2. | \breathe r2
   d4 | d2 g4 | g2 g4 | a4. b8 a4 | b2 a8 g8 | g4 e'4 d'4 | d'4. b16 a16 g4 | a2.~ | a4 \breathe r4
   d4 d2 g4 | g2 g4 | a4. b8 c'4 | d'2 g4 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2. | \breathe r2
   d'4 | d'4 g'4 d'4 | e'4. d'8 b4 | d'2.~ | d'4 \breathe r4
