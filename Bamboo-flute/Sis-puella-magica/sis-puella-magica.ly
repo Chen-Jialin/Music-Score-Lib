@@ -2,7 +2,7 @@
 \language english
 
 \header {
-  title = "Sis Puella Magica"
+  title = "Sis Puella Magica!"
   subtitle = "魔法少女まどか☆マギカ OST"
   copyright = ""
   tagline = "github.com/Chen-Jialin"
