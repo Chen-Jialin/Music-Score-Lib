@@ -27,10 +27,9 @@ melody = \fixed c' {
 
   e8 b8 g8 fs8 d4 | e8 b8 g8 fs8 a4 | e8 b8 g8 d8 fs4 | e8 b8 g8 d8 a4 | e8 b8 g8 d8 fs8 e8 | e2. \breathe \break |
   \repeat volta 4 {
-    e2 e4 | b8 b4.~ b8 b8 | fs4. g8 fs4 | e2.~ | e2. \breathe |
-    r4 \break
-    b4 d'4 | e'2 d'4 | b4 cs'4 a4 | b2.~ | b2.~ | b2.~ | b4 \breathe r4 \break
-    e'4 | e'2 e'4 | d'2 b4 | b4 a4 g4 | fs4 d2~ | d2. \breathe \break |
+    e2 e4 | b8 b4.~ b8 b8 | fs4. g8 fs4 | e2.~ | e2. \breathe \break |
+    r4 b4 d'4 | e'2 d'4 | b4 cs'4 a4 | b2.~ | b2.~ | b2.~ | b4 \breathe \break
+    r4 e'4 | e'2 e'4 | d'2 b4 | b4 a4 g4 | fs4 d2~ | d2. \breathe \break |
     \alternative{
       \volta 1,2 {
         e2 b4 | a2 g4 | fs4 e4 d4 | e2.~ | e2.~ | e2.~ | e2 \breathe e4 \break
@@ -194,7 +193,6 @@ jianpu = \lyricmode {
           筒5
         }
       }
-      midiInstrument = "shakuhachi"
     } \melody
     \new Lyrics \jianpu
   >>
