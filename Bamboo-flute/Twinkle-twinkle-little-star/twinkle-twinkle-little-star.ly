@@ -22,23 +22,24 @@
 melody = \fixed c' {
   \clef treble
   \key c \major
-  \time 4/8
+  \time 2/4
 
-  g,8 a, c d | e2 \breathe | a,8 c d e | g2 \breathe | c8 d e g | a2 \breathe |
-  d8 e g a | c'2 \breathe | e8 g a c' | d'2 \breathe | g8 a c' d' | e'2 \breathe |
-  a8 c' d' e' | g'2 \breathe | c'8 d' e' g' | a'2 \breathe | a'8 g' e' d' | c'2 \breathe |
-  g'8 e' d' c' | a2 \breathe | e'8 d' c' a | g2 \breathe | d'8 c' a g | e2 \breathe |
-  c'8 a g e | d2 \breathe | a8 g e d | c2 \breathe | g8 e d c | a,2 \breathe | e8 d c a, | g,2 \breathe |
+  c8 c8 g8 g8 | a8 a8 g4 \breathe |
+  f8 f8 e8 e8 | d8 d8 c4 \breathe \break |
+  g8 g8 f8 f8 | e8 e8 d4 \breathe |
+  g8 g8 f8 f8 | e8 e8 d4 \breathe \break |
+  c8 c8 g8 g8 | a8 a8 g4 \breathe |
+  f8 f8 e8 e8 | d8 d8 c4 \breathe |
 }
 
 \score {
   \new Staff \with {
     instrumentName = \markup{\right-column{
-        D调竹笛
+        C/G调竹笛
         筒5
       }
     }
-    midiInstrument = "shakuhachi"
+    midiInstrument = "acoustic grand"
   } \melody
   \layout { }
   \midi { }
