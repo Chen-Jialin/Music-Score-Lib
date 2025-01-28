@@ -25,11 +25,11 @@ melody = \fixed c' {
   \time 3/4
   \tempo 4 = 86
 
-  e'2 d'4 | b2 g4 | a2 g4 | e2 d4 | r2 r4 \breathe | r4
-  d'4 b4 | a2.~ | a2. \breathe \break |
+  e'2 d'4 | b2 g4 | a2 g4 | e2 d4 | e2 d4 | b,4~ \breathe
+  <<b,4 d'4>> b4 | a2.~ | a2. \breathe \break |
   r2 d4 | d2 g4 | g2 g4 | a4. b8 a4 | b2 \breathe \break
-  a8 g8 | g4 e'4 d'4 | d'4. b16 a16 g4 |
-  a2.~ | a4 \breathe \break
+  a8 g8 | g4 e'4 d'4 | d'4. b16 a16 g4 
+  a2.~ a4 \breathe \break
   r4 d4 | d2 g4 | g2 g4 | a4. b8 c'4 | d'2 \breathe \break
   g4 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2. \breathe \break |
   r2 d'4 | d'4 g'4 d'4 | e'4. d'8 b4 | d'2.~ | d'4 \breathe \break
@@ -72,7 +72,7 @@ lyric = \lyricmode {
   And8 the8 | way4 I4 should4 | go4. all8 my4 | life.1
   \skip4 I4 | swear2 to4 | go2 what4 -- | ever4. wi8 -- ll4 | be.2
   Thus8 the8 | grace4 I4 would4 | have2 will8 al8 -- | way4. -- "s in"8 my4 | heart.2
-  "Thus the"4 | grace4 I4 would4 | have2 will8 al8 -- | ways2. | in2 my4 | heart.2.
+  "Thus the"4 | grace4 I4 would4 | have2 will8 al8 -- | ways2. | in2 my4 | heart2.
 }
 
 \score {
@@ -103,3 +103,4 @@ lyric = \lyricmode {
   \unfoldRepeats { \melody }
   \midi { }
 }
+
