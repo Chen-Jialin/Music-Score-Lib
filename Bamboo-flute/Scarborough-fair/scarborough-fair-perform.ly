@@ -184,6 +184,39 @@ jianpu = \lyricmode {
   }
 }
 
+lyric = \lyricmode{
+  \skip2.*6 |
+  <<
+    {Are2 you4 | go8 -- ing2 to8 | Scar4. -- bo8 -- rough4 | Fair?2.*2 |
+    \skip4 Par4 -- sley,4 | sa2 -- ge,4 | rose4 -- mary,4 and4 | thyme;2.*3 | \skip4
+    \skip4 Re4 -- | mem2 -- ber4 | me2 to4 | one4 who4 lives4 | the4 -- re,1 \skip4 |}
+    \new \Lyrics{
+      him2 to4 | make8 me2 a8 | cam4. -- br8 -- ic4 | shirt,2.*2 |
+      \skip4 Par4 -- sley,4 | sa2 -- ge,4 | rose4 -- mary,4 and4 | thyme;2.*3 | \skip4
+      \skip4 With4 -- | out2 no4 | seams2 nor4 | nee2 -- dle4 | work,2.*2
+    }
+    \new \Lyrics{
+      him2 to4 | find8 me2 a8 | a4. -- cre8 of4 | land,2.*2 |
+      \skip4 Par4 -- sley,4 | sa2 -- ge,4 | rose4 -- mary,4 and4 | thyme;2.*3 | \skip4
+      \skip4 Be4 -- | tween2 the4 | salt2 water4 | and4 the4 sea4 | strand,2.*2
+    }
+    \new \Lyrics{
+      "Tell him"2 to4 | reap8 it4. with8 a8 | si4. -- ckle8 of4 | leather,2.*2 |
+      \skip4 Par4 -- sley,4 | sa2 -- ge,4 | rose4 -- mary,4 and4 | thyme;2.*3 | \skip4
+      \skip4 And4 | gather2 it4 | all2 in4 | a4 bunch4 of4 | heather,2.*2
+    }
+  >>
+  <<
+    {He2 was4 | once2 the4 | true4 love4 of4 | mine.2.*3 | \skip2 Tell4}
+    \new \Lyrics{
+      Then2 "he'll"4 | be2 a4 | true4 love4 of4 | mine.2.*3 | \skip2 Tell4
+    }
+  >>
+  \skip2.*6 |
+  Then2. | "he'll"2 be4 | a4 true2 | love2 of4 | mine.2.*2 |
+  Then2 "he'll"4 | be2 a4 | true4 love4 of4 | mine.2.*3
+}
+
 \score {
   <<
     \new Staff \with {
@@ -195,6 +228,7 @@ jianpu = \lyricmode {
       }
     } \melody
     \new Lyrics \jianpu
+    \new Lyrics \lyric
   >>
   \layout { }
 }
