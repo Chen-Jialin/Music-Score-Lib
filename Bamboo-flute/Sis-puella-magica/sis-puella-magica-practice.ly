@@ -23,7 +23,7 @@ melody = \fixed c' {
   \clef treble
   \key g \major
   \time 3/4
-  \tempo 4 = 145
+  \tempo 4 = 118
 
   \textLengthOn
   \repeat volta 2 {
@@ -249,15 +249,15 @@ jianpu = \lyricmode {
 }
 
 lyric = \lyricmode {
-  sa-4. mi-8 a4 | do-4 sti-4 a~4 |
-  \skip4 a-8 ri8 a-4 | di-4 ti-4 da-4 |
-  to-4. ri8 a-4 | di-4 to4 ma-4 | do-4 ra~2 | \skip2. |
-  e-4. sti-8 a4 | mo-4 ri-4 ta~4 |
+  sa-4. mi-8 a4 | do-4 sti-4 a4 |
+  \skip4 a-8 ri8 a-4 | di-4 ti-4 da4 |
+  to-4. ri8 a-4 | di-4 to4 ma-4 | do-4 ra2 | \skip2. |
+  e-4. sti-8 a4 | mo-4 ri-4 ta4 |
   \skip4 na-8 ri8 a-4 | mi-4 ti-4 a4 |
-  so-4. ri8 a-4 | ri-4 to4 a-4 | so-4 ra~2 | \skip4
-  se-8 ma-8 ri8 a-8 | i-4 si4. i-8 | so-4 la4 ma-4 | to-4 la~2 | \skip4
-  so-8 ri-8 bi-8 a8 | do-4 che4. i-8 | ro-4 ra4 a-4 | mi-4  ta~2 | \skip4
-  sa-8 ma-8 ri-8 a8 | do-4 se4. i-8 | fi-4 a2 | mi-4 o2 | lo-4 ra2 | fi-4 a2 | si-4 a4 a-4 | do-4 ra~4
+  so-4. ri8 a-4 | ri-4 to4 a-4 | so-4 ra2 | \skip4
+  se-8 ma-8 ri8 a-8 | i-4 si4. i-8 | so-4 la4 ma-4 | to-4 la2 | \skip4
+  so-8 ri-8 bi-8 a8 | do-4 che4. i-8 | ro-4 ra4 a-4 | mi-4  ta2 | \skip4
+  sa-8 ma-8 ri-8 a8 | do-4 se4. i-8 | fi-4 a2 | mi-4 o2 | lo-4 ra2 | fi-4 a2 | si-4 a4 a-4 | do-4 ra4
 }
 
 \score {
@@ -269,7 +269,6 @@ lyric = \lyricmode {
           筒5
         }
       }
-      midiInstrument = "shakuhachi"
     } \melody
     \new Lyrics \jianpu
     \new Lyrics \lyric
