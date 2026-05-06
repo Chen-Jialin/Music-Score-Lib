@@ -34,6 +34,7 @@ melody = \fixed c' {
   \new Staff \with {
     instrumentName = \markup{\right-column{
         C调竹笛
+        G调哨笛
         筒5
       }
     }
