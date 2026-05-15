@@ -215,9 +215,11 @@ melody = \fixed c' {
     }
     % midiInstrument = "shakuhachi"
   } \melody
-  \layout { \context {
-    \Voice
-    \consists \Ez_numbers_engraver
-  } }
+  \layout {
+    \context {
+      \Voice
+      \consists \Ez_numbers_engraver
+    }
+  }
   % \midi { }
 }
