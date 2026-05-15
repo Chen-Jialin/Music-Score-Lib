@@ -83,7 +83,8 @@ lyric = \lyricmode{
     \new Staff \with {
       instrumentName = \markup{
         \right-column{
-          G调竹笛
+          G调竹笛/
+          D调哨笛
           筒5
         }
       }
@@ -97,7 +98,8 @@ lyric = \lyricmode{
   \new Staff \with {
     instrumentName = \markup{
       \right-column{
-        G调竹笛
+        G调竹笛/
+        D调哨笛
         筒5
       }
     }
