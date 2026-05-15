@@ -117,7 +117,8 @@ lyric_en = \lyricmode {
     \new Staff \with {
       instrumentName = \markup{
         \right-column{
-          C/G调竹笛
+          C调竹笛/
+          G调竹笛
           筒5
         }
       }
