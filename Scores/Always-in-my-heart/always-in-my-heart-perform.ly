@@ -3,7 +3,7 @@
 
 \header {
   title = "Always in my heart"
-  subtitle = "終末なにしてますか？忙しいですか？救ってもらっていいですか？ OST"
+  subtitle = "「終末なにしてますか？忙しいですか？救ってもらっていいですか？」OST"
   copyright = ""
   tagline = "github.com/Chen-Jialin"
 }
