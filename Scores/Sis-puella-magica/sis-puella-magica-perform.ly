@@ -3,7 +3,7 @@
 
 \header {
   title = "Sis Puella Magica!"
-  subtitle = "魔法少女まどか☆マギカ OST"
+  subtitle = "「魔法少女まどか☆マギカ」OST"
   copyright = ""
   tagline = "github.com/Chen-Jialin"
 }
@@ -27,11 +27,11 @@ melody = \fixed c' {
 
   \repeat volta 2 {
     e4. fs8 g4 | fs4 d4 e4~ |
-    e4 e8 fs8 g4 | fs4 d4 e4 |
+    e4 e8 fs8 g4 | fs4 d4 e4 | \break
     e4. fs8 g4 | fs4 e4 d4 |
-    fs8 g8 e2~ | e2 r4 \breathe \break |
+    fs8 g8 e2~ | e2 \breathe r4 | \break
     e4. fs8 g4 | fs4 d4 e4~ |
-    e4 e8 fs8 g4 | fs4 d4 e4 |
+    e4 e8 fs8 g4 | fs4 d4 e4 | \break
     e4. fs8 g4 | fs4 e4 d4 |
     fs8 g8 e2~ | e4 \breathe \break
     e8 fs8 g8 a8 | b4 e4. b8 | a8 g8 fs4 fs4 | fs8 g8 e2~ | e4 \breathe \break
@@ -169,7 +169,8 @@ lyric = \lyricmode {
     \new Staff \with {
       instrumentName = \markup{
         \right-column{
-          G调竹笛
+          G调竹笛/
+          D调哨笛
           筒5
         }
       }
