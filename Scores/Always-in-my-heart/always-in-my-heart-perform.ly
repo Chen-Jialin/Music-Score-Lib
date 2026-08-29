@@ -8,7 +8,7 @@
   tagline = "github.com/Chen-Jialin"
 }
 
-\paper{
+\paper {
   #(set-paper-size "a4")
   print-page-number = ##t
   page-number-type = #'arabic
@@ -24,23 +24,24 @@ melody = \fixed c' {
   \key g \major
   \time 3/4
   \tempo 4 = 86
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
 
-  e'2 d'4 | b2 g4 | a2 g4 | e2 d4 | r2 r4 \breathe | r4
-  d'4 b4 | a2.~ | a2. \breathe \break |
+  e'2 d'4 | b2 g4 | a2 g4 | e2 d4 \breathe | r2 r4 | r4
+  d'4 b4 | a2.~ | a2. \breathe | \break
   r2 d4 | d2 g4 | g2 g4 | a4. b8 a4 | b2 \breathe \break
-  a8 g8 | g4 e'4 d'4 | d'4. b16 a16 g4 |
-  a2.~ | a4 \breathe \break
+  a8 g8 | g4 e'4 d'4 | d'4. b16 a16 g4 | a2.~ | a4 \breathe \break
   r4 d4 | d2 g4 | g2 g4 | a4. b8 c'4 | d'2 \breathe \break
-  g4 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2. \breathe \break |
+  g4 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2. \breathe | \break
   r2 d'4 | d'4 g'4 d'4 | e'4. d'8 b4 | d'2.~ | d'4 \breathe \break
   r4 d'4 | d'4 g'4 d'4 | e'4. d'8 b4 | a2.~ | a4 \breathe \break
   r4 d4 | d2 g4 | g2 g4 | a4. b8 c'4 | d'2 \breathe \break
-  g4 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2.~ | g4 \breathe r2 \break |
-  R2.*9 \break |
+  g4 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2.~ | g4 \breathe r2 | \break
+  R2.*9 | \break
   r2 d'4 | d'4 g'4 d'4 | e'4. d'8 b4 | d'2.~ | d'4 r4 d4 | d4 g4 a4 | e'4. d'8 b4 | a2.~ | a4 \breathe \break
   r4 d4 | d2 g4 | g2 g4 | a4. b8 a4 | b2 \breathe \break
   a8 g8 | g4 e'4 d'4 | d'4. b16 a16 g4 | a2.~ | a4 \breathe \break
-  r4 d4 | d2 g4 | g2 g4 | a4. b8 c'4 | d'2 \breathe \break a8 g8 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2.~ | g4 \breathe r2 \break |
+  r4 d4 | d2 g4 | g2 g4 | a4. b8 c'4 | d'2 \breathe \break
+  a8 g8 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2.~ | g4 \breathe r2 | \break
   R2.*2 |
   d'4 g'4 d'4 | e'4. d'8 b4 | d'2.~ | d'4 \breathe \break
   r4 d4 | d4 g4 a4 | e'4. d'8 b4 | a2.~ | a4 \breathe \break
@@ -48,7 +49,7 @@ melody = \fixed c' {
   r4 d4 | d2 g4 | g2 g4 | a4. b8 c'4 | d'2 \breathe \break
   a8 g8 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | b4. c'16 b16 a4 | g2 \breathe \break
   g4 | g4 g'4 e'8 d'8 | d'2 d'8 b8 | a2.~ | a2 g4 | g2. \breathe |
-  R2.*4
+  R2.*4 |
 }
 
 lyric = \lyricmode {
@@ -72,266 +73,282 @@ lyric = \lyricmode {
   And8 the8 | way4 I4 should4 | go4. all8 my4 | life.1
   \skip4 I4 | swear2 to4 | go2 what4 -- | ever4. wi8 -- ll4 | be.2
   Thus8 the8 | grace4 I4 would4 | have2 will8 al8 -- | way4. -- "s in"8 my4 | heart.2
-  "Thus the"4 | grace4 I4 would4 | have2 will8 al8 -- | ways2. | in2 my4 | heart.2.
+  "Thus the"4 | grace4 I4 would4 | have2 will8 al8 -- | ways2. | in2 my4 | heart.2. |
 }
 
-jianpu = \lyricmode{
-  \markup{6-}2
-  \markup{5 |}4 |
-  \markup{3-}2
-  \markup{1 |}4 |
-  \markup{2-}2
-  \markup{1 |}4 |
-  \markup{\center-column{6 \vspace #-0.7 .}-}2
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{0-}2
-  \markup{0 |}4 |
-  \markup{0}4
-  \markup{5}4
-  \markup{3 |}4 |
-  \markup{2-- |}2. |
-  \markup{2-- |}2. |
-  \markup{0-}2
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}-}2
-  \markup{1 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{2 .}4.
-  \markup{\underline 3}8
-  \markup{2 |}4 |
-  \markup{3-}2
-  \markup{\underline 2}8
-  \markup{\underline 1 |}8 |
-  \markup{1}4
-  \markup{6}4
-  \markup{5 |}4 |
-  \markup{5 .}4.
-  \markup{\underline \underline 3}16
-  \markup{\underline \underline 2}16
-  \markup{1 |}4
-  \markup{2-- |}2.
-  \markup{2}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}-}2
-  \markup{1 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{2 .}4.
-  \markup{\underline 3}8
-  \markup{4 |}4 |
-  \markup{5-}2
-  \markup{1 |}4 |
-  \markup{1}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{\underline 6}8
-  \markup{\underline 5 |}8 |
-  \markup{5-}2
-  \markup{\underline 5}8
-  \markup{\underline 3 |}8 |
-  \markup{3 .}4.
-  \markup{\underline \underline 4}16
-  \markup{\underline \underline 3}16
-  \markup{2 |}4 |
-  \markup{1-- |}2. |
-  \markup{0-}2
-  \markup{5 |}4 |
-  \markup{5}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{5 |}4 |
-  \markup{6 .}4.
-  \markup{\underline 5}8
-  \markup{3 |}4 |
-  \markup{5-- |}2. |
-  \markup{5}4
-  \markup{0}4
-  \markup{5 |}4 |
-  \markup{5}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{5 |}4 |
-  \markup{6 .}4.
-  \markup{\underline 5}8
-  \markup{3 |}4 |
-  \markup{2-- |}2. |
-  \markup{2}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}-}2
-  \markup{1 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{2 .}4.
-  \markup{\underline 3}8
-  \markup{4 |}4 |
-  \markup{5-}2
-  \markup{1 |}4 |
-  \markup{1}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{\underline 6}8
-  \markup{\underline 5 |}8 |
-  \markup{5-}2
-  \markup{\underline 5}8
-  \markup{\underline 3 |}8 |
-  \markup{3 .}4.
-  \markup{\underline \underline 4}16
-  \markup{\underline \underline 3}16
-  \markup{2 |}4 |
-  \markup{1-- |}2. |
-  \markup{1}4
-  \markup{0- |}2 |
-  \markup{0-- |}2.*9 |
-  \markup{0-}2
-  \markup{5 |}4 |
-  \markup{5}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{5 |}4 |
-  \markup{6 .}4.
-  \markup{\underline 5}8
-  \markup{3 |}4 |
-  \markup{5-- |}2. |
-  \markup{5}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}}4
-  \markup{1}4
-  \markup{2 |}4 |
-  \markup{6 .}4.
-  \markup{\underline 5}8
-  \markup{3 |}4 |
-  \markup{2-- |}2. |
-  \markup{2}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}-}2
-  \markup{1 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{2 .}4.
-  \markup{\underline 3}8
-  \markup{2 |}4 |
-  \markup{3-}2
-  \markup{\underline 2}8
-  \markup{\underline 1 |}8 |
-  \markup{1}4
-  \markup{6}4
-  \markup{5 |}4 |
-  \markup{5 .}4.
-  \markup{\underline \underline 3}16
-  \markup{\underline \underline 2}16
-  \markup{1 |}4 |
-  \markup{2-- |}2. |
-  \markup{2}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}-}2
-  \markup{1 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{2 .}4.
-  \markup{\underline 3}8
-  \markup{4 |}4 |
-  \markup{5-}2
-  \markup{\underline 2}8
-  \markup{\underline 1 |}8 |
-  \markup{1}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{\underline 6}8
-  \markup{\underline 5 |}8 |
-  \markup{5-}2
-  \markup{\underline 5}8
-  \markup{\underline 3 |}8 |
-  \markup{3 .}4.
-  \markup{\underline \underline 4}16
-  \markup{\underline \underline 3}16
-  \markup{2 |}4 |
-  \markup{1-- |}2. |
-  \markup{1}4
-  \markup{0- |}2 |
-  \markup{0-- |}2.*2 |
-  \markup{5}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{5 |}4 |
-  \markup{6 .}4.
-  \markup{\underline 5}8
-  \markup{3 |}4 |
-  \markup{5-- |}2. |
-  \markup{5}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}}4
-  \markup{1}4
-  \markup{2 |}4 |
-  \markup{6 .}4.
-  \markup{\underline 5}8
-  \markup{3 |}4 |
-  \markup{2-- |}2. |
-  \markup{2}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}-}2
-  \markup{1 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{2 .}4.
-  \markup{\underline 3}8
-  \markup{2 |}4 |
-  \markup{3-}2
-  \markup{\underline 2}8
-  \markup{\underline 1 |}8 |
-  \markup{1}4
-  \markup{6}4
-  \markup{5 |}4 |
-  \markup{5 .}4.
-  \markup{\underline \underline 3}16
-  \markup{\underline \underline 2}16
-  \markup{1 |}4 |
-  \markup{2-- |}2. |
-  \markup{2}4
-  \markup{0}4
-  \markup{\center-column{5 \vspace #-0.7 .} |}4 |
-  \markup{\center-column{5 \vspace #-0.7 .}-}2
-  \markup{1 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{2 .}4.
-  \markup{\underline 3}8
-  \markup{4 |}4 |
-  \markup{5-}2
-  \markup{\underline 2}8
-  \markup{\underline 1 |}8 |
-  \markup{1}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{\underline 6}8
-  \markup{\underline 5 |}8 |
-  \markup{5-}2
-  \markup{\underline 5}8
-  \markup{\underline 3 |}8 |
-  \markup{3 .}4.
-  \markup{\underline \underline 4}16
-  \markup{\underline \underline 3}16
-  \markup{2 |}4 |
-  \markup{1-}2
-  \markup{1 |}4 |
-  \markup{1}4
-  \markup{\center-column{\vspace #-0.7 . \vspace #-0.3 1}}4
-  \markup{\underline 6}8
-  \markup{\underline 5 |}8 |
-  \markup{5-}2
-  \markup{\underline 5}8
-  \markup{\underline 3 |}8 |
-  \markup{2-- |}2. |
-  \markup{2-}2
-  \markup{1 |}4 |
-  \markup{1-- |}2. |
-  \markup{0--}2.*4
+jianpu = \lyricmode {
+  \markup {6-}2
+  \markup {5 |}4
+  \markup {3-}2
+  \markup {1 |}4
+  \markup {2-}2
+  \markup {1 |}4
+  \markup {\center-column {6 \vspace #-0.7 .}-}2
+  \markup {\center-column {5 \vspace #-0.7 .} \super "∨" |}4
+  \markup {0-}2
+  \markup {0 |}4
+  \markup {0}4
+  \markup {5}4
+  \markup {3 |}4
+  \markup {2-- |}2.
+  \markup {(2)-- \super "∨" |}2.
+  \break
+  \markup {0-}2
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}-}2
+  \markup {1 |}4
+  \markup {1-}2
+  \markup {1 |}4
+  \markup {2 .}4.
+  \markup {\underline 3}8
+  \markup {2 |}4
+  \markup {3- \super "∨"}2 \break
+  \markup {\underline 2}8
+  \markup {\underline 1 |}8
+  \markup {1}4
+  \markup {6}4
+  \markup {5 |}4
+  \markup {5 .}4.
+  \markup {\underline \underline 3}16
+  \markup {\underline \underline 2}16
+  \markup {1 |}4
+  \markup {2-- |}2.
+  \markup {(2) \super "∨"}4 \break
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}-}2
+  \markup {1 |}4
+  \markup {1-}2
+  \markup {1 |}4
+  \markup {2 .}4.
+  \markup {\underline 3}8
+  \markup {4 |}4
+  \markup {5- \super "∨"}2 \break
+  \markup {1 |}4
+  \markup {1}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {\underline 6}8
+  \markup {\underline 5 |}8
+  \markup {5-}2
+  \markup {\underline 5}8
+  \markup {\underline 3 |}8
+  \markup {3 .}4.
+  \markup {\underline \underline 4}16
+  \markup {\underline \underline 3}16
+  \markup {2 |}4
+  \markup {1-- \super "∨" |}2.
+  \break
+  \markup {0-}2
+  \markup {5 |}4
+  \markup {5}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {5 |}4
+  \markup {6 .}4.
+  \markup {\underline 5}8
+  \markup {3 |}4
+  \markup {5-- |}2.
+  \markup {(5) \super "∨"}4 \break
+  \markup {0}4
+  \markup {5 |}4
+  \markup {5}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {5 |}4
+  \markup {6 .}4.
+  \markup {\underline 5}8
+  \markup {3 |}4
+  \markup {2-- |}2.
+  \markup {(2) \super "∨"}4 \break
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}-}2
+  \markup {1 |}4
+  \markup {1-}2
+  \markup {1 |}4
+  \markup {2 .}4.
+  \markup {\underline 3}8
+  \markup {4 |}4
+  \markup {5- \super "∨"}2 \break
+  \markup {1 |}4
+  \markup {1}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {\underline 6}8
+  \markup {\underline 5 |}8
+  \markup {5-}2
+  \markup {\underline 5}8
+  \markup {\underline 3 |}8
+  \markup {3 .}4.
+  \markup {\underline \underline 4}16
+  \markup {\underline \underline 3}16
+  \markup {2 |}4
+  \markup {1-- |}2.
+  \markup {(1) \super "∨"}4
+  \markup {0- |}2
+  \break
+  \markup {0-- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.  \break
+  \markup {0-}2
+  \markup {5 |}4
+  \markup {5}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {5 |}4
+  \markup {6 .}4.
+  \markup {\underline 5}8
+  \markup {3 |}4
+  \markup {5-- |}2.
+  \markup {(5)}4
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}}4
+  \markup {1}4
+  \markup {2 |}4
+  \markup {6 .}4.
+  \markup {\underline 5}8
+  \markup {3 |}4
+  \markup {2-- |}2.
+  \markup {(2) \super "∨"}4 \break
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}-}2
+  \markup {1 |}4
+  \markup {1-}2
+  \markup {1 |}4
+  \markup {2 .}4.
+  \markup {\underline 3}8
+  \markup {2 |}4
+  \markup {3- \super "∨"}2 \break
+  \markup {\underline 2}8
+  \markup {\underline 1 |}8
+  \markup {1}4
+  \markup {6}4
+  \markup {5 |}4
+  \markup {5 .}4.
+  \markup {\underline \underline 3}16
+  \markup {\underline \underline 2}16
+  \markup {1 |}4
+  \markup {2-- |}2.
+  \markup {(2) \super "∨"}4 \break
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}-}2
+  \markup {1 |}4
+  \markup {1-}2
+  \markup {1 |}4
+  \markup {2 .}4.
+  \markup {\underline 3}8
+  \markup {4 |}4
+  \markup {5- \super "∨"}2 \break
+  \markup {\underline 2}8
+  \markup {\underline 1 |}8
+  \markup {1}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {\underline 6}8
+  \markup {\underline 5 |}8
+  \markup {5-}2
+  \markup {\underline 5}8
+  \markup {\underline 3 |}8
+  \markup {3 .}4.
+  \markup {\underline \underline 4}16
+  \markup {\underline \underline 3}16
+  \markup {2 |}4
+  \markup {1-- |}2.
+  \markup {(1) \super "∨"}4
+  \markup {0- |}2
+  \break
+  \markup {0-- |}2.
+  \markup {--- |}2.
+  \markup {5}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {5 |}4
+  \markup {6 .}4.
+  \markup {\underline 5}8
+  \markup {3 |}4
+  \markup {5-- |}2.
+  \markup {(5) \super "∨"}4 \break
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}}4
+  \markup {1}4
+  \markup {2 |}4
+  \markup {6 .}4.
+  \markup {\underline 5}8
+  \markup {3 |}4
+  \markup {2-- |}2.
+  \markup {(2) \super "∨"}4 \break
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}-}2
+  \markup {1 |}4
+  \markup {1-}2
+  \markup {1 |}4
+  \markup {2 .}4.
+  \markup {\underline 3}8
+  \markup {2 |}4
+  \markup {3- \super "∨"}2 \break
+  \markup {\underline 2}8
+  \markup {\underline 1 |}8
+  \markup {1}4
+  \markup {6}4
+  \markup {5 |}4
+  \markup {5 .}4.
+  \markup {\underline \underline 3}16
+  \markup {\underline \underline 2}16
+  \markup {1 |}4
+  \markup {2-- |}2.
+  \markup {(2) \super "∨"}4 \break
+  \markup {0}4
+  \markup {\center-column {5 \vspace #-0.7 .} |}4
+  \markup {\center-column {5 \vspace #-0.7 .}-}2
+  \markup {1 |}4
+  \markup {1-}2
+  \markup {1 |}4
+  \markup {2 .}4.
+  \markup {\underline 3}8
+  \markup {4 |}4
+  \markup {5- \super "∨"}2 \break
+  \markup {\underline 2}8
+  \markup {\underline 1 |}8
+  \markup {1}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {\underline 6}8
+  \markup {\underline 5 |}8
+  \markup {5-}2
+  \markup {\underline 5}8
+  \markup {\underline 3 |}8
+  \markup {3 .}4.
+  \markup {\underline \underline 4}16
+  \markup {\underline \underline 3}16
+  \markup {2 |}4
+  \markup {1- \super "∨"}2 \break
+  \markup {1 |}4
+  \markup {1}4
+  \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
+  \markup {\underline 6}8
+  \markup {\underline 5 |}8
+  \markup {5-}2
+  \markup {\underline 5}8
+  \markup {\underline 3 |}8
+  \markup {2-- |}2.
+  \markup {(2)-}2
+  \markup {1 |}4
+  \markup {1-- \super "∨" |}2.
+  \markup {0-- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
+  \markup {--- |}2.
 }
 
 \score {
   <<
     \new Staff \with {
-      instrumentName = \markup{
-        \right-column{
+      instrumentName = \markup {
+        \right-column {
           G调竹笛/
           D调哨笛
           筒5

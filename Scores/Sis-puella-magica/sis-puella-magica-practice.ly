@@ -8,7 +8,7 @@
   tagline = "github.com/Chen-Jialin"
 }
 
-\paper{
+\paper {
   #(set-paper-size "a4")
   print-page-number = ##t
   page-number-type = #'arabic
@@ -39,228 +39,227 @@ melody = \fixed c' {
   \key g \major
   \time 3/4
   \tempo 4 = 118
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
   \easyHeadsOn
-
   \textLengthOn
+
   \repeat volta 2 {
-    e4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    | fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
-    e4~^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    |
-    e4e8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    | fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
-    e4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    e4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    | fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    e4~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}} |
+    e4
+    e8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    | fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    e4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
     | \break
-    e4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    | fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    e4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
-    |
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    e2~^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    | e2 \breathe r4 | \break
-    e4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    | fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
-    e4~^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    |
-    e4 e8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    | fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
-    e4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    e4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    | fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    e4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    | fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    e2~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}} | e2 \breathe
+    r4
     | \break
-    e4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    | fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    e4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    e4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    | fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    e4~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}} |
+    e4
+    e8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    | fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    e4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    | \break
+    e4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    | fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    e4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    | fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    e2~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}} | e4 \breathe
+    \break
+    e8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    | b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    e4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    | a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    | fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    e2~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}} | e4 \breathe
+    \break
+    e8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    | b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    e4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    | a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    fs4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    b2~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}} | b4 \breathe
+    \break
+    e8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    | b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    e4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    | a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    | b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    c'8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
+    b2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    | \break a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+    a2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    | g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+    g2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    | fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    e8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+    | fs8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
+    g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+    e2~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}} | e2. \breathe
     |
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    e2~^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    | e4 \breathe \break
-    e8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    a8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    | b4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    e4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    b8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    | a8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    | fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    e2~^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    | e4 \breathe \break
-    e8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    a8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    | b4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    e4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    b8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    | a8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    fs4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    | g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    b2~^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    | b4 \breathe \break
-    e8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    a8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    | b4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    e4.^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    b8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    | a4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    g4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    a4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    | b8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    c'8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
-    b2^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    | a8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    b8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-    a2^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    | g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    a8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-    g2^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    | fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    e8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
-    d4^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
-    | fs8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four)) (lh . ()) (rh . ()))}}
-    g8^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-    e2~^\markup{\center-column{\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-    | e2. \breathe |
   }
 }
 
 jianpu = \lyricmode {
   \repeat volta 2 {
-    \markup{\center-column{6 \vspace #-0.7 .} .}4.
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{1 |}4
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{5 \vspace #-0.7 .}}4
-    \markup{\center-column{6 \vspace #-0.7 .} |}4
-    \markup{\center-column{6 \vspace #-0.7 .}}4
-    \markup{\center-column{\underline 6 \vspace #-0.7 .}}8
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{1 |}4
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{5 \vspace #-0.7 .}}4
-    \markup{\center-column{6 \vspace #-0.7 .} |}4
-    \markup{\center-column{6 \vspace #-0.7 .} .}4.
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{1 |}4
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{6 \vspace #-0.7 .}}4
-    \markup{\center-column{5 \vspace #-0.7 .} |}4
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\underline 1}8
-    \markup{\center-column{6 \vspace #-0.7 .}- |}2
-    \markup{\center-column{6 \vspace #-0.7 .}-}2
-    \markup{0}4
-    \break |
-    \markup{\center-column{6 \vspace #-0.7 .} .}4.
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{1 |}4
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{5 \vspace #-0.7 .}}4
-    \markup{\center-column{6 \vspace #-0.7 .} |}4
-    \markup{\center-column{6 \vspace #-0.7 .}}4
-    \markup{\center-column{\underline 6 \vspace #-0.7 .}}8
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{1 |}4
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{5 \vspace #-0.7 .}}4
-    \markup{\center-column{6 \vspace #-0.7 .} |}4
-    \markup{\center-column{6 \vspace #-0.7 .} .}4.
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{1 |}4
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{6 \vspace #-0.7 .}}4
-    \markup{\center-column{5 \vspace #-0.7 .} |}4
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\underline 1}8
-    \markup{\center-column{6 \vspace #-0.7 .}- |}2
-    \markup{\center-column{6 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .} .}4.
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {1 |}4
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {5 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .} |}4
+    \markup {\center-column {(6) \vspace #-0.7 .}}4
+    \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {1 |}4
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {5 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .} |}4
     \break
-    \markup{\center-column{\underline 6 \vspace #-0.7 .}}8
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\underline 1}8
-    \markup{\underline 2 |}8
-    \markup{3}4
-    \markup{\center-column{6 \vspace #-0.7 .} .}4.
-    \markup{\underline 3 |}8
-    \markup{\underline 2}8
-    \markup{\underline 1}8
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{7 \vspace #-0.7 .} |}4
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\underline 1}8
-    \markup{\center-column{6 \vspace #-0.7 .}- |}2
-    \markup{\center-column{6 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .} .}4.
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {1 |}4
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .}}4
+    \markup {\center-column {5 \vspace #-0.7 .} |}4
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\underline 1}8
+    \markup {\center-column {6 \vspace #-0.7 .}- |}2
+    \markup {\center-column {(6) \vspace #-0.7 .}- \super "∨"}2
+    \markup {0 |}4
     \break
-    \markup{\center-column{\underline 6 \vspace #-0.7 .}}8
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\underline 1}8
-    \markup{\underline 2 |}8
-    \markup{3}4
-    \markup{\center-column{6 \vspace #-0.7 .} .}4.
-    \markup{\underline 3 |}8
-    \markup{\underline 2}8
-    \markup{\underline 1}8
-    \markup{\center-column{7 \vspace #-0.7 .}}4
-    \markup{\center-column{7 \vspace #-0.7 .} |}4
-    \markup{1}4
-    \markup{3- |}2
-    \markup{3}4
+    \markup {\center-column {6 \vspace #-0.7 .} .}4.
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {1 |}4
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {5 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .} |}4
+    \markup {\center-column {(6) \vspace #-0.7 .}}4
+    \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {1 |}4
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {5 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .} |}4
     \break
-    \markup{\center-column{\underline 6 \vspace #-0.7 .}}8
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\underline 1}8
-    \markup{\underline 2 |}8
-    \markup{3}4
-    \markup{\center-column{6 \vspace #-0.7 .} .}4.
-    \markup{\underline 3 |}8
-    \markup{2}4
-    \markup{1}4
-    \markup{2 |}4
-    \markup{\underline 3}8
-    \markup{\underline 4}8
-    \markup{3- |}2
-    \markup{\underline 2}8
-    \markup{\underline 3}8
-    \markup{2- |}2
-    \markup{\underline 1}8
-    \markup{\underline 2}8
-    \markup{1- |}2
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\center-column{\underline 6 \vspace #-0.7 .}}8
-    \markup{\center-column{5 \vspace #-0.7 .}}4
-    \markup{\center-column{5 \vspace #-0.7 .} |}4
-    \markup{\center-column{\underline 7 \vspace #-0.7 .}}8
-    \markup{\underline 1}8
-    \markup{\center-column{6 \vspace #-0.7 .}- |}2
-    \markup{\center-column{6 \vspace #-0.7 .}-- |}2.
+    \markup {\center-column {6 \vspace #-0.7 .} .}4.
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {1 |}4
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {6 \vspace #-0.7 .}}4
+    \markup {\center-column {5 \vspace #-0.7 .} |}4
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\underline 1}8
+    \markup {\center-column {6 \vspace #-0.7 .}- |}2
+    \markup {\center-column {(6) \vspace #-0.7 .} \super "∨"}4 \break
+    \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\underline 1}8
+    \markup {\underline 2 |}8
+    \markup {3}4
+    \markup {\center-column {6 \vspace #-0.7 .} .}4.
+    \markup {\underline 3 |}8
+    \markup {\underline 2}8
+    \markup {\underline 1}8
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {7 \vspace #-0.7 .} |}4
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\underline 1}8
+    \markup {\center-column {6 \vspace #-0.7 .}- |}2
+    \markup {\center-column {(6) \vspace #-0.7 .} \super "∨"}4 \break
+    \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\underline 1}8
+    \markup {\underline 2 |}8
+    \markup {3}4
+    \markup {\center-column {6 \vspace #-0.7 .} .}4.
+    \markup {\underline 3 |}8
+    \markup {\underline 2}8
+    \markup {\underline 1}8
+    \markup {\center-column {7 \vspace #-0.7 .}}4
+    \markup {\center-column {7 \vspace #-0.7 .} |}4
+    \markup {1}4
+    \markup {3- |}2
+    \markup {(3) \super "∨"}4 \break
+    \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\underline 1}8
+    \markup {\underline 2 |}8
+    \markup {3}4
+    \markup {\center-column {6 \vspace #-0.7 .} .}4.
+    \markup {\underline 3 |}8
+    \markup {2}4
+    \markup {1}4
+    \markup {2 |}4
+    \markup {\underline 3}8
+    \markup {\underline 4}8
+    \markup {3- |}2
+    \break \markup {\underline 2}8
+    \markup {\underline 3}8
+    \markup {2- |}2
+    \markup {\underline 1}8
+    \markup {\underline 2}8
+    \markup {1- |}2
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
+    \markup {\center-column {5 \vspace #-0.7 .}}4
+    \markup {\center-column {5 \vspace #-0.7 .} |}4
+    \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
+    \markup {\underline 1}8
+    \markup {\center-column {6 \vspace #-0.7 .}- |}2
+    \markup {\center-column {(6) \vspace #-0.7 .}-- \super "∨" |}2.
   }
 }
 
@@ -279,8 +278,8 @@ lyric = \lyricmode {
 \score {
   <<
     \new Staff \with {
-      instrumentName = \markup{
-        \right-column{
+      instrumentName = \markup {
+        \right-column {
           G调竹笛/
           D调哨笛
           筒5

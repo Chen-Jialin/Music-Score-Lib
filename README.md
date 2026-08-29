@@ -25,3 +25,7 @@ xelatex -interaction=nonstopmode -file-line-error lilypond-book-demo.tex
 - 把冗余的休止符简化一下
 - 联系版本强制换行
 - 呼吸记号放到休止符前
+
+代码遇到呼吸符号，呼吸符号前面不加空格
+休止符前也不加空格
+不加 markup 的音符之后缺少空格

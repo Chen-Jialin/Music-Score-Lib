@@ -8,7 +8,7 @@
   tagline = "github.com/Chen-Jialin"
 }
 
-\paper{
+\paper {
   #(set-paper-size "a4")
   print-page-number = ##t
   page-number-type = #'arabic
@@ -24,11 +24,12 @@ melody = \fixed c' {
   \key g \major
   \time 3/4
   \tempo 4 = 118
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
 
   \repeat volta 2 {
     e4. fs8 g4 | fs4 d4 e4~ |
     e4 e8 fs8 g4 | fs4 d4 e4 | \break
-    e4. fs8 g4 | fs4 e4 d4 | fs8 g8 e2~ | e2 \breathe r4 \break |
+    e4. fs8 g4 | fs4 e4 d4 | fs8 g8 e2~ | e2 \breathe r4 | \break
     e4. fs8 g4 | fs4 d4 e4~ |
     e4 e8 fs8 g4 | fs4 d4 e4 | \break
     e4. fs8 g4 | fs4 e4 d4 | fs8 g8 e2~ | e4 \breathe \break
@@ -53,8 +54,8 @@ lyric = \lyricmode {
 \score {
   <<
     \new Staff \with {
-      instrumentName = \markup{
-        \right-column{
+      instrumentName = \markup {
+        \right-column {
           G调竹笛/
           D调哨笛
           筒5
@@ -66,10 +67,10 @@ lyric = \lyricmode {
   \layout { }
 }
 
-\score{
+\score {
   \new Staff \with {
-    instrumentName = \markup{
-      \right-column{
+    instrumentName = \markup {
+      \right-column {
         G调竹笛/
         D调哨笛
         筒5
