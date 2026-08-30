@@ -27,7 +27,7 @@ melody = \fixed c' {
   \set Score.barNumberVisibility = #all-bar-numbers-visible
 
   g4 a4 b4 g4 | a4 d'4 a4 g4 | fs4 g4 a4 fs4 | g4 a4 b4 g4 | g4 a4 b4 g4 | a4 d'4 a4 g4 | fs4 g4 a4 fs4 | g2~\mf g8 \breathe \break
-  g'8 g'8 g'8 | g'8 fs'8 fs'8 e'8 e'8 d'8 d'8 d'8~ | d'8 b8 b4 r8 \breathe \break
+  g'8 g'8 g'8 | g'8 fs'8 fs'8 e'8 e'8 d'8 d'8 d'8~ | d'8 b8 b4 \breathe r8 \break
   g'8 g'8 g'8 | g'8 fs'8 fs'8 e'8 e'8 d'8 d'8 a'8~ | a'8 g'8 g'4 r8 \breathe \break
   g'8 g'8 g'8 | g'8 fs'8 fs'8 e'8 e'8 d'8 d'8 d'8~ | d'8 b8 b4 b8 c'8~ c'8 d'8~ | d'4\< g'8 fs'4 g'4 g'8~ | g'2. \breathe r8\! \break
   fs'8 | fs'8 g'4 d''4 g'4 fs'8~ | fs'8 g'4 a'4. \breathe r8 \break
@@ -55,9 +55,9 @@ melody = \fixed c' {
   e'8 g'8 c''8~ | c''8 b'4 a'4 g'4 c''8~ | c''8 b'4 a'4 g'4 g'8~ | g'4 \breathe r8 \break
   g'8 d''8 d''8 d''8 d''8~ | d''8 g'8 g'2. \breathe | r4. \break
   g'8 g'8 d'8 b8 c'8~ | c'8 g'8 \breathe r8 \break
-  g'8 g'8. a'8. bf'8 | bf'4. a'8 g'4. g'8 | bf'4 a'8 g'4 fs'8 g'8 a'8~ | a'1 | \breathe r4. \break
+  g'8 g'8. a'8. bf'8 | bf'4. a'8 g'4. g'8 | bf'4 a'8 g'4 fs'8 g'8 a'8~ | a'1 \breathe | r4. \break
   a'8 a'8 g'8 a'8 d''8~ | d''1~ | d''1 \breathe | \break
-  g'8 fs'8 fs'8 e'8 e'8 d'8 d'8 c'8 | b8 c'8 b8 g8~ g4 r8 e8~ | e8 g8 a8 bf8~ bf8 a8 g8 fs8~ | fs8 g8 fs8 d8 r8 c8 r8 r8 | r4. d8 fs8. g8. a8 | a8 g8 fs8 g8~ g8 e'8~ e'8 e'8 | e'4 d'8 c'8~ c'4 r8 b16 c'16 | b8. g8. g8 b8. c'8. d'8 | e'4 e'8 e'8~ e'8 b'8 b'8 b'8~ | b'8 b'8 b'8 b'8 b'2 \breathe | \break
+  g'8 fs'8 fs'8 e'8 e'8 d'8 d'8 c'8 | b8 c'8 b8 g8~ g4 r8 e8~ | e8 g8 a8 bf8~ bf8 a8 g8 fs8~ | fs8 g8 fs8 d8 r2 | r4. d8 fs8. g8. a8 | a8 g8 fs8 g8~ g8 e'8~ e'8 e'8 | e'4 d'8 c'8~ c'4 r8 b16 c'16 | b8. g8. g8 b8. c'8. d'8 | e'4 e'8 e'8~ e'8 b'8 b'8 b'8~ | b'8 b'8 b'8 b'8 b'2 \breathe | \break
 
   \key e \major
   gs'8->_\mp fs'8 fs'8 e'8 e'4 e'8 gs'8~ | gs'8 fs'8 fs'4 \breathe r4 \break
@@ -72,7 +72,7 @@ melody = \fixed c' {
   b'8 c''8 a'2. \breathe | r2 r8 \break
   b'4 b'8 | b'8-> a'8 a'8 g'8 g'8 e'8 g'8 b'8~ | b'8 a'8 a'8 \breathe r4 \break
   a'8 a'8 a'8 | a'8-> g'8 g'8 fs'8 fs'8 d'8 fs'8 a'8~ | a'8 g'8 g'2 \breathe r8 \break
-  b'8~ | b'8 g'4 b'4 g'4 c''8~ | c''8 b'4 a'4 g'8 a'8 b'8~ | b'2 \breathe \skip4 \break
+  b'8~ | b'8 g'4 b'4 g'4 c''8~ | c''8 b'4 a'4 g'8 a'8 b'8~ | b'2 \breathe r4 \break
   c''8 b'8~ | b'8 d'8 e'8 fs'8 g'8 b'8 b'8 b'8 | b'8-> a'8 a'8 g'8 g'8 e'8 g'8 b'8~ | b'8 a'8 a'4 \breathe r8 \break
   g'8 fs'8 g'8 | a'8-> a'8 b'8 c''8~ c''8 b'8 a'8 g'8~ | g'4 \breathe r8 \break
   e'4 g'4 c''8 ~ | c''8 b'4 a'4 g'8 a'4~ | a'2 \breathe r8 \break
@@ -190,8 +190,8 @@ lyric_hiragana = \lyricmode {
     \new Staff \with {
       instrumentName = \markup {
         \right-column {
-          F调竹笛/
-          C调竹笛
+          G调竹笛/
+          D调竹笛
           筒5
         }
       }
@@ -206,8 +206,8 @@ lyric_hiragana = \lyricmode {
   \new Staff \with {
     instrumentName = \markup {
       \right-column {
-        F调竹笛/
-        C调哨笛
+        G调竹笛/
+        D调哨笛
         筒5
       }
     }
