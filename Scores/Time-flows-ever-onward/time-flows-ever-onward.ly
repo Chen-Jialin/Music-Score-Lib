@@ -30,7 +30,7 @@ melody = \fixed c' {
   e8 fs8 | g4. e8 g4 | a4 e4 d4 | e2. | b2 \breathe r4 | \break
   e'4. d'8 c'4 | d'2 g'4 | a'4 g'4 e'4 | e'2 \breathe r4 | \break
   e'2 d'8 c'8 | b4 a4 g4 | a2.~ | a2 \breathe r4 | \break
-  r2. | r2. | r2. | r2. | r2. | r2. | r2. | \break
+  R2.*7 | \break
   r2 a8 d'8 | e'4. d'8 c'4 | d'4. c'8 b4 | c'4 b4 a8 g8 | e2 \breathe \break
   e8 fs8 | g4. e8 g4 | a4 e4 d4 | e2. | b2 \breathe r4 | \break
   e'4. d'8 c'4 | d'2 g'4 | a'4 g'4 e'8. g'16 | e'2 \breathe r4 | \break

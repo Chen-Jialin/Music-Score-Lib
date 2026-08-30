@@ -92,7 +92,6 @@ jianpu = \lyricmode {
   \markup {3 |}4
   \markup {2-- |}2.
   \markup {(2)-- \super "∨" |}2.
-  \break
   \markup {0-}2
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -102,7 +101,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {2 |}4
-  \markup {3- \super "∨"}2 \break
+  \markup {3- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -113,7 +112,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 2}16
   \markup {1 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -123,7 +122,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {1 |}4
   \markup {1}4
   \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
@@ -137,7 +136,6 @@ jianpu = \lyricmode {
   \markup {\underline \underline 3}16
   \markup {2 |}4
   \markup {1-- \super "∨" |}2.
-  \break
   \markup {0-}2
   \markup {5 |}4
   \markup {5}4
@@ -147,7 +145,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {5-- |}2.
-  \markup {(5) \super "∨"}4 \break
+  \markup {(5) \super "∨"}4
   \markup {0}4
   \markup {5 |}4
   \markup {5}4
@@ -157,7 +155,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -167,7 +165,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {1 |}4
   \markup {1}4
   \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
@@ -183,7 +181,6 @@ jianpu = \lyricmode {
   \markup {1-- |}2.
   \markup {(1) \super "∨"}4
   \markup {0- |}2
-  \break
   \markup {0-- |}2.
   \markup {--- |}2.
   \markup {--- |}2.
@@ -192,7 +189,7 @@ jianpu = \lyricmode {
   \markup {--- |}2.
   \markup {--- |}2.
   \markup {--- |}2.
-  \markup {--- |}2.  \break
+  \markup {--- |}2.
   \markup {0-}2
   \markup {5 |}4
   \markup {5}4
@@ -212,7 +209,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -222,7 +219,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {2 |}4
-  \markup {3- \super "∨"}2 \break
+  \markup {3- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -233,7 +230,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 2}16
   \markup {1 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -243,7 +240,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -260,7 +257,6 @@ jianpu = \lyricmode {
   \markup {1-- |}2.
   \markup {(1) \super "∨"}4
   \markup {0- |}2
-  \break
   \markup {0-- |}2.
   \markup {--- |}2.
   \markup {5}4
@@ -270,7 +266,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {5-- |}2.
-  \markup {(5) \super "∨"}4 \break
+  \markup {(5) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}}4
@@ -280,7 +276,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -290,7 +286,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {2 |}4
-  \markup {3- \super "∨"}2 \break
+  \markup {3- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -301,7 +297,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 2}16
   \markup {1 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -311,7 +307,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -325,7 +321,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 4}16
   \markup {\underline \underline 3}16
   \markup {2 |}4
-  \markup {1- \super "∨"}2 \break
+  \markup {1- \super "∨"}2
   \markup {1 |}4
   \markup {1}4
   \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
@@ -350,7 +346,7 @@ jianpu = \lyricmode {
       instrumentName = \markup {
         \right-column {
           G调竹笛/
-          D调哨笛
+          D调竹笛
           筒5
         }
       }

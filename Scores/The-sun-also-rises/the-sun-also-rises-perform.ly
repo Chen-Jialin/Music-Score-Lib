@@ -67,7 +67,7 @@ jianpu = \lyricmode {
   \markup {\center-column {\underline 7 \vspace #-0.7 .} .}8.
   \markup {\underline \underline 1 |}16
   \markup {\center-column {6 \vspace #-0.7 .}--- |}1
-  \markup {\center-column {(6) \vspace #-0.7 .} \super "∨"}4 \break
+  \markup {\center-column {(6) \vspace #-0.7 .} \super "∨"}4
   \markup {\center-column {6 \vspace #-0.7 .}}4
   \markup {1}4
   \markup {3 |}4
@@ -82,7 +82,7 @@ jianpu = \lyricmode {
   \markup {\underline 5 .}8.
   \markup {\underline \underline 5 |}16
   \markup {3--- |}1
-  \markup {(3) \super "∨"}4 \break
+  \markup {(3) \super "∨"}4
   \markup {2}4
   \markup {6}4
   \markup {5 |}4
@@ -108,7 +108,7 @@ jianpu = \lyricmode {
       instrumentName = \markup {
         \right-column {
           F调竹笛/
-          C调哨笛
+          C调竹笛
           筒5
         }
       }

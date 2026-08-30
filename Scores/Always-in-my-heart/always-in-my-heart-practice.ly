@@ -40,8 +40,8 @@ melody = \fixed c' {
   \time 3/4
   \tempo 4 = 86
   \set Score.barNumberVisibility = #all-bar-numbers-visible
-  \easyHeadsOn
   \textLengthOn
+  \easyHeadsOn
 
   e'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup {+}
   d'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -50,14 +50,14 @@ melody = \fixed c' {
   | a2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | e2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}
-  d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}^\markup {"  ∨"} \breathe
-  | r2
+  d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
+  \breathe | r2
   r4
   | r4
   d'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a2. \breathe
-  | \break
+  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a2.
+  \breathe | \break
   r2
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -67,8 +67,8 @@ melody = \fixed c' {
   | a4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-  | b2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}^\markup {"  ∨"} \breathe
-  \break
+  | b2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+  \breathe \break
   a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
@@ -78,8 +78,8 @@ melody = \fixed c' {
   b16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4 \breathe
-  \break
+  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4
+  \breathe \break
   r4
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -89,8 +89,8 @@ melody = \fixed c' {
   | a4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   c'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
-  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {"+ ∨"} \breathe
-  \break
+  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
+  \breathe \break
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   g'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -103,8 +103,8 @@ melody = \fixed c' {
   c'16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
   b16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-  | g2.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}^\markup {"  ∨"} \breathe
-  | \break
+  | g2.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+  \breathe | \break
   r2
   d'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   | d'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -113,8 +113,8 @@ melody = \fixed c' {
   | e'4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup {+}
   d'8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-  | d'2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+} | d'4 \breathe
-  \break
+  | d'2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+} | d'4
+  \breathe \break
   r4
   d'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   | d'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -123,8 +123,8 @@ melody = \fixed c' {
   | e'4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup {+}
   d'8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4 \breathe
-  \break
+  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4
+  \breathe \break
   r4
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -134,8 +134,8 @@ melody = \fixed c' {
   | a4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   c'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
-  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {"+ ∨"} \breathe
-  \break
+  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
+  \breathe \break
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   g'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -148,8 +148,8 @@ melody = \fixed c' {
   c'16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
   b16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-  | g2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}} | g4 \breathe
-  r2
+  | g2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}} | g4
+  \breathe r2
   | \break
   R2.*9 | \break
   r2
@@ -169,8 +169,8 @@ melody = \fixed c' {
   | e'4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup {+}
   d'8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4 \breathe
-  \break
+  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4
+  \breathe \break
   r4
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -180,8 +180,8 @@ melody = \fixed c' {
   | a4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-  | b2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}^\markup {"  ∨"} \breathe
-  \break
+  | b2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+  \breathe \break
   a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
@@ -191,8 +191,8 @@ melody = \fixed c' {
   b16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4 \breathe
-  \break
+  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4
+  \breathe \break
   r4
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -202,8 +202,8 @@ melody = \fixed c' {
   | a4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   c'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
-  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {"+ ∨"} \breathe
-  \break
+  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
+  \breathe \break
   a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
@@ -217,8 +217,8 @@ melody = \fixed c' {
   c'16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
   b16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-  | g2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}} | g4 \breathe
-  r2
+  | g2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}} | g4
+  \breathe r2
   | \break
   R2.*2 |
   d'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -227,8 +227,8 @@ melody = \fixed c' {
   | e'4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup {+}
   d'8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-  | d'2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+} | d'4 \breathe
-  \break
+  | d'2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+} | d'4
+  \breathe \break
   r4
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -237,8 +237,8 @@ melody = \fixed c' {
   | e'4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup {+}
   d'8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
   b4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
-  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4 \breathe
-  \break
+  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4
+  \breathe \break
   r4
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -248,8 +248,8 @@ melody = \fixed c' {
   | a4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-  | b2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}^\markup {"  ∨"} \breathe
-  \break a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
+  | b2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
+  \breathe \break a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   e'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -258,8 +258,8 @@ melody = \fixed c' {
   b16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4 \breathe
-  \break
+  | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a4
+  \breathe \break
   r4
   d4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
   | d2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three four five six)) (lh . ()) (rh . ()))}}
@@ -269,8 +269,8 @@ melody = \fixed c' {
   | a4.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   c'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
-  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {"+ ∨"} \breathe
-  \break
+  | d'2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three four five six)) (lh . ()) (rh . ()))}}^\markup {+}
+  \breathe \break
   a8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
   g8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
@@ -284,8 +284,8 @@ melody = \fixed c' {
   c'16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (two three)) (lh . ()) (rh . ()))}}
   b16^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   a4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}}
-  | g2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}^\markup {"  ∨"} \breathe
-  \break
+  | g2^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+  \breathe \break
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   | g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
   g'4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}^\markup {+}
@@ -296,8 +296,8 @@ melody = \fixed c' {
   b8^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one)) (lh . ()) (rh . ()))}}
   | a2.~^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two)) (lh . ()) (rh . ()))}} | a2
   g4^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
-  | g2.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}^\markup {"  ∨"} \breathe
-  |
+  | g2.^\markup {\center-column {\woodwind-diagram #'tin-whistle #'((cc . (one two three)) (lh . ()) (rh . ()))}}
+  \breathe |
   R2.*4 |
 }
 
@@ -341,7 +341,6 @@ jianpu = \lyricmode {
   \markup {3 |}4
   \markup {2-- |}2.
   \markup {(2)-- \super "∨" |}2.
-  \break
   \markup {0-}2
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -351,7 +350,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {2 |}4
-  \markup {3- \super "∨"}2 \break
+  \markup {3- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -362,7 +361,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 2}16
   \markup {1 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -372,7 +371,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {1 |}4
   \markup {1}4
   \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
@@ -386,7 +385,6 @@ jianpu = \lyricmode {
   \markup {\underline \underline 3}16
   \markup {2 |}4
   \markup {1-- \super "∨" |}2.
-  \break
   \markup {0-}2
   \markup {5 |}4
   \markup {5}4
@@ -396,7 +394,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {5-- |}2.
-  \markup {(5) \super "∨"}4 \break
+  \markup {(5) \super "∨"}4
   \markup {0}4
   \markup {5 |}4
   \markup {5}4
@@ -406,7 +404,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -416,7 +414,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {1 |}4
   \markup {1}4
   \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
@@ -432,7 +430,6 @@ jianpu = \lyricmode {
   \markup {1-- |}2.
   \markup {(1) \super "∨"}4
   \markup {0- |}2
-  \break
   \markup {0-- |}2.
   \markup {--- |}2.
   \markup {--- |}2.
@@ -441,7 +438,7 @@ jianpu = \lyricmode {
   \markup {--- |}2.
   \markup {--- |}2.
   \markup {--- |}2.
-  \markup {--- |}2.  \break
+  \markup {--- |}2.
   \markup {0-}2
   \markup {5 |}4
   \markup {5}4
@@ -461,7 +458,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -471,7 +468,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {2 |}4
-  \markup {3- \super "∨"}2 \break
+  \markup {3- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -482,7 +479,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 2}16
   \markup {1 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -492,7 +489,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -509,7 +506,6 @@ jianpu = \lyricmode {
   \markup {1-- |}2.
   \markup {(1) \super "∨"}4
   \markup {0- |}2
-  \break
   \markup {0-- |}2.
   \markup {--- |}2.
   \markup {5}4
@@ -519,7 +515,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {5-- |}2.
-  \markup {(5) \super "∨"}4 \break
+  \markup {(5) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}}4
@@ -529,7 +525,7 @@ jianpu = \lyricmode {
   \markup {\underline 5}8
   \markup {3 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -539,7 +535,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {2 |}4
-  \markup {3- \super "∨"}2 \break
+  \markup {3- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -550,7 +546,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 2}16
   \markup {1 |}4
   \markup {2-- |}2.
-  \markup {(2) \super "∨"}4 \break
+  \markup {(2) \super "∨"}4
   \markup {0}4
   \markup {\center-column {5 \vspace #-0.7 .} |}4
   \markup {\center-column {5 \vspace #-0.7 .}-}2
@@ -560,7 +556,7 @@ jianpu = \lyricmode {
   \markup {2 .}4.
   \markup {\underline 3}8
   \markup {4 |}4
-  \markup {5- \super "∨"}2 \break
+  \markup {5- \super "∨"}2
   \markup {\underline 2}8
   \markup {\underline 1 |}8
   \markup {1}4
@@ -574,7 +570,7 @@ jianpu = \lyricmode {
   \markup {\underline \underline 4}16
   \markup {\underline \underline 3}16
   \markup {2 |}4
-  \markup {1- \super "∨"}2 \break
+  \markup {1- \super "∨"}2
   \markup {1 |}4
   \markup {1}4
   \markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}}4
@@ -599,7 +595,7 @@ jianpu = \lyricmode {
       instrumentName = \markup {
         \right-column {
           G调竹笛/
-          D调哨笛
+          D调竹笛
           筒5
         }
       }

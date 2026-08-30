@@ -17,21 +17,6 @@
   tagline = ##f
 }
 
-#(define Ez_numbers_engraver
-   (make-engraver
-    (acknowledgers
-     ((note-head-interface engraver grob source-engraver)
-      (let* ((context (ly:translator-context engraver))
-             (tonic-pitch (ly:context-property context 'tonic))
-             (tonic-name (ly:pitch-notename tonic-pitch))
-             (grob-pitch
-              (ly:event-property (event-cause grob) 'pitch))
-             (grob-name (ly:pitch-notename grob-pitch))
-             (delta (modulo (- grob-name tonic-name) 7))
-             (note-names
-              (make-vector 7 (number->string (1+ delta)))))
-        (ly:grob-set-property! grob 'note-names note-names))))))
-
 #(set-global-staff-size 26)
 
 melody = \fixed c' {
@@ -46,53 +31,6 @@ melody = \fixed c' {
   g8 g8 f8 f8 | e8 e8 d4 \breathe | \break
   c8 c8 g8 g8 | a8 a8 g4 \breathe |
   f8 f8 e8 e8 | d8 d8 c4 \breathe |
-}
-
-jianpu = \lyricmode {
-  \markup {\underline 1}8
-  \markup {\underline 1}8
-  \markup {\underline 5}8
-  \markup {\underline 5 |}8
-  \markup {\underline 6}8
-  \markup {\underline 6}8
-  \markup {5 |}4
-  \markup {\underline 4}8
-  \markup {\underline 4}8
-  \markup {\underline 3}8
-  \markup {\underline 3 |}8
-  \markup {\underline 2}8
-  \markup {\underline 2}8
-  \markup {1}4
-  \break |
-  \markup {\underline 5}8
-  \markup {\underline 5}8
-  \markup {\underline 4}8
-  \markup {\underline 4 |}8
-  \markup {\underline 3}8
-  \markup {\underline 3}8
-  \markup {2 |}4
-  \markup {\underline 5}8
-  \markup {\underline 5}8
-  \markup {\underline 4}8
-  \markup {\underline 4 |}8
-  \markup {\underline 3}8
-  \markup {\underline 3}8
-  \markup {2}4
-  \break |
-  \markup {\underline 1}8
-  \markup {\underline 1}8
-  \markup {\underline 5}8
-  \markup {\underline 5 |}8
-  \markup {\underline 6}8
-  \markup {\underline 6}8
-  \markup {5 |}4
-  \markup {\underline 4}8
-  \markup {\underline 4}8
-  \markup {\underline 3}8
-  \markup {\underline 3 |}8
-  \markup {\underline 2}8
-  \markup {\underline 2}8
-  \markup {1 |}4
 }
 
 lyric_zh = \lyricmode {
@@ -113,25 +51,66 @@ lyric_en = \lyricmode {
   how8 I8 won8 -- der8 | what8 you8 are!4 |
 }
 
+jianpu = \lyricmode {
+  \markup {\underline 1}8
+  \markup {\underline 1}8
+  \markup {\underline 5}8
+  \markup {\underline 5 |}8
+  \markup {\underline 6}8
+  \markup {\underline 6}8
+  \markup {5 \super "∨" |}4
+  \markup {\underline 4}8
+  \markup {\underline 4}8
+  \markup {\underline 3}8
+  \markup {\underline 3 |}8
+  \markup {\underline 2}8
+  \markup {\underline 2}8
+  \markup {1 \super "∨" |}4
+  \markup {\underline 5}8
+  \markup {\underline 5}8
+  \markup {\underline 4}8
+  \markup {\underline 4 |}8
+  \markup {\underline 3}8
+  \markup {\underline 3}8
+  \markup {2 \super "∨" |}4
+  \markup {\underline 5}8
+  \markup {\underline 5}8
+  \markup {\underline 4}8
+  \markup {\underline 4 |}8
+  \markup {\underline 3}8
+  \markup {\underline 3}8
+  \markup {2 \super "∨" |}4
+  \markup {\underline 1}8
+  \markup {\underline 1}8
+  \markup {\underline 5}8
+  \markup {\underline 5 |}8
+  \markup {\underline 6}8
+  \markup {\underline 6}8
+  \markup {5 \super "∨" |}4
+  \markup {\underline 4}8
+  \markup {\underline 4}8
+  \markup {\underline 3}8
+  \markup {\underline 3 |}8
+  \markup {\underline 2}8
+  \markup {\underline 2}8
+  \markup {1 \super "∨" |}4
+}
+
 \score {
   <<
     \new Staff \with {
       instrumentName = \markup {
         \right-column {
           C调竹笛/
-          G调竹笛
+          G调哨笛
           筒5
         }
       }
+      midiInstrument = "acoustic grand"
     } \melody
     \new Lyrics \jianpu
     \new Lyrics \lyric_zh
     \new Lyrics \lyric_en
   >>
-  \layout {
-    \context {
-      \Voice
-      \consists \Ez_numbers_engraver
-    }
-  }
+  \layout { }
 }

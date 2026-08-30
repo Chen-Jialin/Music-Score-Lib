@@ -46,150 +46,6 @@ melody = \fixed c' {
   }
 }
 
-jianpu = \lyricmode {
-  \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-  \markup {\underline 3}8
-  \markup {\underline 1}8
-  \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
-  \markup {\center-column {5 \vspace #-0.7 .} |}4
-  \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-  \markup {\underline 3}8
-  \markup {\underline 1}8
-  \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
-  \markup {2 |}4
-  \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-  \markup {\underline 3}8
-  \markup {\underline 1}8
-  \markup {\center-column {\underline 5 \vspace #-0.7 .}}8
-  \markup {\center-column {7 \vspace #-0.7 .} |}4
-  \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-  \markup {\underline 3}8
-  \markup {\underline 1}8
-  \markup {\center-column {\underline 5 \vspace #-0.7 .}}8
-  \markup {2 |}4
-  \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-  \markup {\underline 3}8
-  \markup {\underline 1}8
-  \markup {\center-column {\underline 5 \vspace #-0.7 .}}8
-  \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
-  \markup {\center-column {\underline 6 \vspace #-0.7 .} |}8
-  \markup {\center-column {6 \vspace #-0.7 .}-- \super "∨" |}2.
-  \break
-  \repeat volta 4 {
-    \markup {\center-column {6 \vspace #-0.7 .}-}2
-    \markup {\center-column {6 \vspace #-0.7 .} |}4
-    \markup {\underline 3}8
-    \markup {3 .}4.
-    \markup {\underline (3)}8
-    \markup {\underline 3 |}8
-    \markup {\center-column {7 \vspace #-0.7 .} .}4.
-    \markup {\underline 1}8
-    \markup {\center-column {7 \vspace #-0.7 .} |}4
-    \markup {\center-column {6 \vspace #-0.7 .}-- |}2.
-    \markup {\center-column {(6) \vspace #-0.7 .}-- \super "∨" |}2.
-    \break
-    \markup {0}4
-    \markup {3}4
-    \markup {5 |}4
-    \markup {6-}2
-    \markup {5 |}4
-    \markup {3}4
-    \markup {♯4}4
-    \markup {2 |}4
-    \markup {3-- |}2.
-    \markup {(3)-- |}2.
-    \markup {(3)-- |}2.
-    \markup {(3) \super "∨"}4 \break
-    \markup {0}4
-    \markup {6 |}4
-    \markup {6-}2
-    \markup {6 |}4
-    \markup {5-}2
-    \markup {3 |}4
-    \markup {3}4
-    \markup {2}4
-    \markup {1 |}4
-    \markup {\center-column {7 \vspace #-0.7 .}}4
-    \markup {\center-column {5 \vspace #-0.7 .}- |}2
-    \markup {\center-column {(5) \vspace #-0.7 .}-- \super "∨" |}2.
-    \break
-    \alternative {
-      \volta #'(1 2) {
-        \markup {\center-column {6 \vspace #-0.7 .}-}2
-        \markup {3 |}4
-        \markup {2-}2
-        \markup {1 |}4
-        \markup {\center-column {7 \vspace #-0.7 .}}4
-        \markup {\center-column {6 \vspace #-0.7 .}}4
-        \markup {\center-column {5 \vspace #-0.7 .} |}4
-        \markup {\center-column {6 \vspace #-0.7 .}-- |}2.
-        \markup {\center-column {(6) \vspace #-0.7 .}-- |}2.
-        \markup {\center-column {(6) \vspace #-0.7 .}-- |}2.
-        \markup {\center-column {(6) \vspace #-0.7 .}- \super "∨"}2
-        \markup {\center-column {6 \vspace #-0.7 .}}4 \break
-      }
-      \volta #'(3) {
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 3}8
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 1}8
-        \markup {\center-column {6 \vspace #-0.7 .} |}4
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 3}8
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 1}8
-        \markup {\center-column {7 \vspace #-0.7 .} |}4
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 3}8
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 1}8
-        \markup {1 |}4
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 3}8
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 1}8
-        \markup {2 |}4
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 3}8
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 1}8
-        \markup {\center-column {6 \vspace #-0.7 .} |}4
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\underline 3}8
-        \markup {\center-column {\underline 6 \vspace #-0.7 .}}8
-        \markup {\center-column {\underline 7 \vspace #-0.7 .}}8
-        \markup {\underline 1}8
-        \markup {\underline 2 \super "∨" |}8
-        \break
-        \markup {3-- |}2.
-        \markup {3-}2
-        \markup {2 |}4
-        \markup {1}4
-        \markup {\center-column {7 \vspace #-0.7 .}- |}2
-        \markup {\center-column {6 \vspace #-0.7 .}-}2
-        \markup {\center-column {5 \vspace #-0.7 .} |}4
-        \markup {\center-column {6 \vspace #-0.7 .}-- |}2.
-        \markup {\center-column {(6) \vspace #-0.7 .}-- \super "∨" |}2.
-        \break
-      }
-      \volta #'(4) {
-        \markup {\center-column {6 \vspace #-0.7 .}-}2
-        \markup {3 |}4
-        \markup {2-}2
-        \markup {1 |}4
-        \markup {\center-column {7 \vspace #-0.7 .}}4
-        \markup {\center-column {6 \vspace #-0.7 .}}4
-        \markup {\center-column {5 \vspace #-0.7 .} |}4
-        \markup {\center-column {6 \vspace #-0.7 .}-- |}2.
-        \markup {\center-column {(6) \vspace #-0.7 .}-- |}2.
-        \markup {\center-column {(6) \vspace #-0.7 .}-- |}2.
-        \markup {\center-column {(6) \vspace #-0.7 .}- \super "∨"}2
-        \markup {0 |}4
-      }
-    }
-  }
-}
-
 lyric = \lyricmode {
   \skip2.*6 |
   <<
@@ -227,6 +83,153 @@ lyric = \lyricmode {
   Then2 "he'll"4 | be2 a4 | true4 love4 of4 | mine.2.*3 |
 }
 
+jianpu = \lyricmode {
+
+  \markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 4}8
+\markup {\underline 3}8
+\markup {1 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 4}8
+\markup {\underline 3}8
+\markup {5 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 4}8
+\markup {\underline 1}8
+\markup {3 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 4}8
+\markup {\underline 1}8
+\markup {5 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 4}8
+\markup {\underline 1}8
+\markup {\underline 3}8
+\markup {\underline 2 |}8
+\markup {2-- \super "∨" |}2.
+\break
+  \repeat volta 4 {
+    \markup {2-}2
+\markup {2 |}4
+\markup {\underline 6}8
+\markup {6 .}4.
+\markup {\underline (6)}8
+\markup {\underline 6 |}8
+\markup {3 .}4.
+\markup {\underline 4}8
+\markup {3 |}4
+\markup {2-- |}2.
+\markup {(2)-- \super "∨" |}2.
+\break
+    \markup {0}4
+\markup {6}4
+\markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1} |}4
+\markup {\center-column {\vspace #-0.7 . \vspace #-0.3 2}-}2
+\markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1} |}4
+\markup {6}4
+\markup {7}4
+\markup {5 |}4
+\markup {6-- |}2.
+\markup {(6)-- |}2.
+\markup {(6)-- |}2.
+\markup {(6) \super "∨"}4 \break
+\markup {0}4
+\markup {\center-column {\vspace #-0.7 . \vspace #-0.3 2} |}4
+\markup {\center-column {\vspace #-0.7 . \vspace #-0.3 2}-}2
+\markup {\center-column {\vspace #-0.7 . \vspace #-0.3 2} |}4
+\markup {\center-column {\vspace #-0.7 . \vspace #-0.3 1}-}2
+\markup {6 |}4
+\markup {6}4
+\markup {5}4
+\markup {4 |}4
+\markup {3}4
+\markup {1- |}2
+\markup {(1)-- \super "∨" |}2.
+\break
+    \alternative {
+      \volta #'(1 2) {
+        \markup {2-}2
+\markup {6 |}4
+\markup {5-}2
+\markup {4 |}4
+\markup {3}4
+\markup {2}4
+\markup {1 |}4
+\markup {2-- |}2.
+\markup {(2)-- |}2.
+\markup {(2)-- |}2.
+\markup {(2)- \super "∨"}2
+\markup {2}4 \break
+}
+      \volta #'(3) {
+        \markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 2}8
+\markup {\underline 4}8
+\markup {2 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 2}8
+\markup {\underline 4}8
+\markup {3 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 2}8
+\markup {\underline 4}8
+\markup {4 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 2}8
+\markup {\underline 4}8
+\markup {5 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 2}8
+\markup {\underline 4}8
+\markup {2 |}4
+\markup {\underline 2}8
+\markup {\underline 6}8
+\markup {\underline 2}8
+\markup {\underline 3}8
+\markup {\underline 4}8
+\markup {\underline 5 \super "∨" |}8
+\break
+        \markup {6-- |}2.
+\markup {6-}2
+\markup {5 |}4
+\markup {4}4
+\markup {3- |}2
+\markup {2-}2
+\markup {1 |}4
+\markup {2-- |}2.
+\markup {(2)-- \super "∨" |}2.
+\break
+      }
+      \volta #'(4) {
+        \markup {2-}2
+\markup {6 |}4
+\markup {5-}2
+\markup {4 |}4
+\markup {3}4
+\markup {2}4
+\markup {1 |}4
+\markup {2-- |}2.
+\markup {(2)-- |}2.
+\markup {(2)-- |}2.
+\markup {(2)- \super "∨"}2
+\markup {0 |}4
+}
+    }
+  }
+
+}
+
+
 \score {
   <<
     \new Staff \with {
@@ -243,3 +246,5 @@ lyric = \lyricmode {
   >>
   \layout { }
 }
+
+
